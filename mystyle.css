@@ -1,0 +1,104 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: embed;
+    color: hsl(229, 23%, 23%);
+   background: url(images/bg-pattern-top.svg) no-repeat , url(images/bg-pattern-bottom.svg) no-repeat;
+   background-color:  hsl(185, 75%, 39%);
+   background-position: right 55vw bottom 40vh, left 55vw top 45vh;   
+   height: 100vh;
+}
+img {
+
+    border: 6px solid white;
+    border-radius: 50%; 
+    position: relative;
+    left: 118px;
+    bottom: 40px;
+}
+.card{
+    
+    background-color: white;
+    border-radius: 24px;
+    width: 343px;
+    height: 507px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+    
+        
+    
+    
+.head_of_a_card{
+    background-image: url(images/bg-pattern-card.svg);
+    height: 155px;
+    width: 343px;
+   border-top-left-radius: 24px ;
+   border-top-right-radius: 24px ;
+    
+}
+.Username{
+    text-align: center;
+
+}
+.age{
+    font-weight: 400;
+    color: hsl(0, 0%, 60%);
+}
+.Location{
+    font-weight: 400;
+    color: hsl(0, 0%, 60%);
+    text-align: center;
+}
+.Stats{
+    display: flex;
+    text-align: center;
+    
+       
+}
+.Posts{
+    position: relative;
+    left: 150px;
+}
+.Likes{
+    position: relative;
+    left: 70px;
+}
+#main_page{
+    display: flex;
+    
+    
+    
+}
+h4{
+    font-weight: 400;
+    color: hsl(0, 0%, 60%);
+    position: relative;
+    top: -15px;
+
+}
+  .left{
+      position: relative;
+      left:20px;
+
+  }
+#line{
+    border: 1px solid black;
+    
+ 
+  
+}
+
+
+
+@media(orientation:landscape) and (max-width:850px){
+    .card{
+        transform: scale(0.7);
+    }
+}
